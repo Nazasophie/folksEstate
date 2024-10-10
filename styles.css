@@ -1,0 +1,116 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove any default padding */
+}
+
+.upper-header {
+    background-color: red; /* Red background */
+    display: flex;
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center vertically */
+    margin-top: 0; /* Remove top margin */
+    color: white;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%; /* Full screen width, responsive */
+    height: 50px;
+    box-sizing: border-box; /* Includes padding in the total width */
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the contact info elements */
+}
+
+.social-icons {
+    display: flex;
+    gap: 5px; /* Reduced space between the icons */
+}
+
+.social-icons a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.email-icon,
+.phone-icon,
+.instagram-icon i,
+.facebook-icon i {
+    background-color: white; /* White background for the icons */
+    color: red; /* Red color for icon font */
+    border-radius: 50%; /* Circle border */
+    padding: 5px; /* Padding inside the icon */
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.instagram-icon i,
+.facebook-icon i {
+    font-size: 20px; /* Adjust icon size */
+}
+
+
+
+/* Begin Lower Header */
+.lower-header {
+    background-color: whitesmoke; /* Background color */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between logo, nav, and contact */
+    align-items: center; /* Center items vertically */
+    height: 100px; /* Set a fixed height for the lower header */
+    padding-bottom: 0.2rem;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+.logo img {
+    width: 80px; /* Reduced logo width */
+    height: 80px; /* Reduced logo height */
+    margin-top: 10px; /* Add margin to the top of the logo */
+}
+
+.navigation {
+    flex-grow: 1; /* Allow navigation to grow and occupy available space */
+    text-align: center; /* Center-align the navigation items */
+}
+
+.navigation ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display list items in a row */
+    justify-content: center; /* Center items */
+}
+
+.navigation li {
+    margin: 0 15px; /* Add space between navigation items */
+}
+
+.navigation a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(2, 2, 2); /* Change link color */
+}
+
+.contact-button {
+    margin-left: auto; /* Push the contact button to the right */
+}
+
+.contact-button button {
+    background-color: red; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Add padding to button */
+    cursor: pointer; /* Change cursor on hover */
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+/* End Lower Header */
